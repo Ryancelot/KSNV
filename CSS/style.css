@@ -1,0 +1,101 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+    background: #eef4f7; /* Màu nền nhẹ nhàng */
+    color: #343a40; /* Màu chữ đậm */
+}
+
+header {
+    background: #007bff; /* Màu xanh dương chủ đạo */
+    color: #fff;
+    padding: 1.5rem 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 5px 0 0;
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+main {
+    padding: 30px;
+    max-width: 960px;
+    margin: 30px auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 25px;
+    border: 1px solid #dee2e6; /* Màu viền nhẹ */
+    border-radius: 6px;
+    background-color: #f8f9fa; /* Nền cho từng phần */
+}
+
+h2, h3 {
+    color: #0056b3; /* Màu tiêu đề xanh đậm hơn */
+    margin-top: 0;
+    border-bottom: 2px solid #e9ecef;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #007bff;
+    padding: 8px 0;
+    display: block;
+    transition: color 0.3s ease;
+}
+
+ul li a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    background: #343a40; /* Màu footer đậm */
+    color: #e9ecef;
+    margin-top: 40px;
+    border-top: 1px solid #495057;
+}
+
+/* CSS cho ghi chú */
+.note-trigger {
+    cursor: pointer;
+    color: #28a745; /* Màu xanh lá cây cho phần kích hoạt ghi chú */
+    text-decoration: underline dashed; /* Gạch chân nét đứt */
+    font-weight: bold;
+    display: inline-block; /* Để nó không bị ngắt dòng lung tung */
+    padding: 2px 0;
+}
+
+.note-content {
+    display: none; /* Mặc định ẩn ghi chú */
+    font-style: italic;
+    color: #6c757d; /* Màu chữ ghi chú */
+    background-color: #e2f0d9; /* Nền ghi chú màu xanh lá nhạt */
+    padding: 7px 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
